@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Debug</key>
+	<dict>
+		<key>Stripe</key>
+		<dict>
+			<key>Publishable Key</key>
+			<string>pk_test_CLNIadfsdfdsfbYbbwb2g1d</string>
+		</dict>
+		<key>PubNub</key>
+		<dict>
+			<key>Publish Key</key>
+			<string>pub-c-fe6be9aa-3be7</string>
+			<key>Subscribe Key</key>
+			<string>sub-c-267b97a4-eda4</string>
+		</dict>
+		<key>Wowza</key>
+		<string>GOSK-2943-0103-edo4</string>
+		<key>kBASE_URL</key>
+		<string>http://staging.invostudio.com</string>
+	</dict>
+	<key>Release</key>
+	<dict>
+		<key>Wowza</key>
+		<string>GOSK-2943-0103-62B5</string>
+		<key>PubNub</key>
+		<dict>
+			<key>Publish Key</key>
+			<string>pub-c-fe6be9aa-3be7</string>
+			<key>Subscribe Key</key>
+			<string>sub-c-267b97a4-eda4</string>
+		</dict>
+		<key>Stripe</key>
+		<dict>
+			<key>Publishable Key</key>
+			<string>pk_test_CLNIbYbbwb2g1dBnpublishkey</string>
+		</dict>
+		<key>kBASE_URL</key>
+		<string>http://www.invostudio.com</string>
+	</dict>
+</dict>
+</plist>

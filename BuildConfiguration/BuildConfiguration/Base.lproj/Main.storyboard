@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BuildConfiguration" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stripe: GOSK-2943-0103-62B5-AC67-1447" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30T-WQ-8Lk">
+                                <rect key="frame" x="36" y="325" width="303" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stripe: GOSK-2943-0103-62B5-AC67-1447" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fW1-7g-BFh">
+                                <rect key="frame" x="36" y="351" width="303" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PubNub Publish Key : GOSK-2943-0103" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwl-DL-rY1">
+                                <rect key="frame" x="49" y="299" width="276" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PubNub Subscribe Key : GOSK-2943-0103" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHK-rq-Bao">
+                                <rect key="frame" x="40" y="273" width="295" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wowza: GOSK-2943-0103" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bN-fK-Ce5">
+                                <rect key="frame" x="97" y="377" width="182" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Build Configurations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbJ-am-cSl">
+                                <rect key="frame" x="104" y="117" width="167.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fW1-7g-BFh" firstAttribute="centerX" secondItem="30T-WQ-8Lk" secondAttribute="centerX" id="5Mg-UZ-xhi"/>
+                            <constraint firstItem="30T-WQ-8Lk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8mp-MF-AON"/>
+                            <constraint firstItem="sbJ-am-cSl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="97" id="DD1-Db-2aG"/>
+                            <constraint firstItem="sbJ-am-cSl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FYl-rn-pE2"/>
+                            <constraint firstItem="3bN-fK-Ce5" firstAttribute="centerX" secondItem="fW1-7g-BFh" secondAttribute="centerX" id="IQm-RC-WAA"/>
+                            <constraint firstItem="YHK-rq-Bao" firstAttribute="centerX" secondItem="Kwl-DL-rY1" secondAttribute="centerX" id="LKb-ao-7lw"/>
+                            <constraint firstItem="3bN-fK-Ce5" firstAttribute="top" secondItem="fW1-7g-BFh" secondAttribute="bottom" constant="8" id="aVm-DD-2cT"/>
+                            <constraint firstItem="fW1-7g-BFh" firstAttribute="top" secondItem="30T-WQ-8Lk" secondAttribute="bottom" constant="8" id="luh-Qu-bLh"/>
+                            <constraint firstItem="30T-WQ-8Lk" firstAttribute="top" secondItem="Kwl-DL-rY1" secondAttribute="bottom" constant="8" id="uKu-mX-ARD"/>
+                            <constraint firstItem="30T-WQ-8Lk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wRo-VC-9jd"/>
+                            <constraint firstItem="Kwl-DL-rY1" firstAttribute="centerX" secondItem="30T-WQ-8Lk" secondAttribute="centerX" id="woi-Hy-BfX"/>
+                            <constraint firstItem="Kwl-DL-rY1" firstAttribute="top" secondItem="YHK-rq-Bao" secondAttribute="bottom" constant="8" id="xnt-nX-yUT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="configUrl" destination="30T-WQ-8Lk" id="5vU-uO-ylg"/>
+                        <outlet property="pubnubPublishKey" destination="Kwl-DL-rY1" id="F3C-WS-UZk"/>
+                        <outlet property="pubnubSubscribekey" destination="Kwl-DL-rY1" id="Jmz-DK-d3h"/>
+                        <outlet property="stripeKey" destination="fW1-7g-BFh" id="ifT-0Q-t7u"/>
+                        <outlet property="wowzaKey" destination="3bN-fK-Ce5" id="Uhw-2P-ZDt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
